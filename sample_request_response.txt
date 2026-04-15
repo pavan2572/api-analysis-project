@@ -1,0 +1,11 @@
+GET /api/user/profile HTTP/1.1
+
+Response:
+{
+  "name": "user",
+  "email": "user@email.com",
+  "password": "hidden"
+}
+
+Observation:
+Sensitive data exposure in API response.
